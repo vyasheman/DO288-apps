@@ -15,5 +15,5 @@ RUN chgrp -R 0 	/var/log/httpd /var/run/httpd && \
 #rm -rf /run/httpd && mkdir /run/httpd
 
 # Run as the root user
-USER root
+USER 1001
 
